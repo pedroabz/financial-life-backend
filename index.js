@@ -3,10 +3,10 @@ const express = require('express')
 const app = express()
 const port =  process.env.PORT || 5000;
 const cors = require ('cors')
-var fs = require('fs')
+const expensesController = require('./controllers/expensesController')
 
 app.use(cors())
 
-app.get('/', (req, res) => fs.createReadStream('./Mocks/expenses.json').pipe(res));
+expensesController(app)
 
 app.listen(port, () => console.log(`App listening at http://localhost:${port}`))
