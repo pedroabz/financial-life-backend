@@ -1,0 +1,36 @@
+[
+    {
+        "month": "January",
+        "entries" :[
+            {
+                "description" : "Compra Jogos Tabuleiro",
+                "recurrent":true,
+                "currentInstallment": 3,
+                "totalNumberInstallments":6,
+                "value": 1000,
+                "year": 2020
+            },
+            {
+                "description" : "Potion Explosion",
+                "recurrent":false,
+                "currentInstallment": 3,
+                "totalNumberInstallments":6,
+                "value": 19.90,
+                "year": 2020
+            }
+        ] 
+        
+    },
+    {
+        "month":"February",
+        "entries":[{
+            "description" : "Potion Explosion",
+            "recurrent":false,
+            "currentInstallment": 3,
+            "totalNumberInstallments":6,
+            "value": 19.90,
+            "year": 2020
+        }
+    ]
+    }
+]
